@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "734299548049",
+    "project_id": "sporbul-66d0e",
+    "storage_bucket": "sporbul-66d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:734299548049:android:223f727e62198087889230",
+        "android_client_info": {
+          "package_name": "com.mahdi.sporbul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "734299548049-n544r31fdps95ipkdbkon5nvnbo1i128.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEexMs8JiGuqWsdCsBURZdqG0flvTJjoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "734299548049-n544r31fdps95ipkdbkon5nvnbo1i128.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

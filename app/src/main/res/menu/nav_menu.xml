@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"
+        app:showAsAction="always" />
+
+<!--    <item-->
+<!--        android:id="@+id/map"-->
+<!--        android:icon="@drawable/ic_baseline_map_24"-->
+<!--        android:title="Map"-->
+<!--        app:showAsAction="never" />-->
+
+    <item
+        android:id="@+id/myEvents"
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="@string/my_events"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+</menu>

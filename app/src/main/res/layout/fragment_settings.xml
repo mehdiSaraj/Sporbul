@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.events.settings.SettingsFragment">
+
+    <TextView
+        android:id="@+id/accountTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/account"
+        android:textStyle="bold"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="8dp"
+        android:textSize="16sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.mahdi.sporbul.ui.events.settings.SettingsItem
+        android:id="@+id/nameItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Full Name"
+        app:description="Name Surname"
+        app:layout_constraintTop_toBottomOf="@id/accountTitle"/>
+
+    <com.mahdi.sporbul.ui.events.settings.SettingsItem
+        android:id="@+id/emailItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Email"
+        app:description="example@email.com"
+        app:layout_constraintTop_toBottomOf="@id/nameItem"/>
+
+    <com.mahdi.sporbul.ui.events.settings.SettingsItem
+        android:id="@+id/addressItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Address"
+        app:description="address goes here"
+        app:layout_constraintTop_toBottomOf="@id/emailItem"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/manageTitle"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Settings"-->
+<!--        android:textStyle="bold"-->
+<!--        android:paddingHorizontal="12dp"-->
+<!--        android:paddingVertical="8dp"-->
+<!--        android:textSize="16sp"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/addressItem"/>-->
+
+<!--    <com.mahdi.sporbul.ui.events.settings.SettingsItem-->
+<!--        android:id="@+id/passwordItem"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:title="Change Password"-->
+<!--        app:clickableItem="true"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/manageTitle"/>-->
+
+<!--    <com.mahdi.sporbul.ui.events.settings.SettingsItem-->
+<!--        android:id="@+id/deleteAccountItem"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:title="Delete Account"-->
+<!--        app:clickableItem="true"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/passwordItem"/>-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logoutBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_margin="16dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
